@@ -1,0 +1,24 @@
+table{
+	width: 600px;
+	margin: auto;
+}
+tr:nth-child(even){background-color: #dadada;}
+th{
+	background-color: rgba(22,131,158,1);
+	padding: 5px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 5px;
+	transition: all 0.2s linear;
+	background-color: #998e06;
+	border-radius: 5px;
+	border: 0.8px solid white;
+}
+a:hover{
+	letter-spacing: 0.3em;
+	background-color: #474203;
+}
